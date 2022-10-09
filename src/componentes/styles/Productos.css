@@ -1,0 +1,79 @@
+.productos{
+    background-color: #FFE2D8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.formulario_products{
+	min-width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	background: #FFF4F4;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	width: 400px;
+	margin-bottom: 60px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.formulario_products input,
+.formulario_products textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 43%;
+	border-radius: 10px;
+	border: 2px solid #e2e2e2;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 35px;
+	color: #1f1f1f;
+}
+
+input#producto.descripcion{
+    width: 90%;
+    height: 250px;
+    padding-bottom: 200px;
+}
+
+.formulario_products label {
+	display: block;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: #1f1f1f;
+}
+
+.title_productos{
+	color: #eb5e1c;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-bottom: 20px;
+	padding-top: 70px;
+}
+
+.productos_texto{
+	padding-left: 60px;
+	padding-bottom: 35px;
+}
+
+.terminos{
+    padding-bottom: 5px;
+}
+
+.holi{
+    margin-left: 8px;
+}
+
+.back{
+    width: 9%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen_insertar{
+    width: 30%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 70px;
+}
+

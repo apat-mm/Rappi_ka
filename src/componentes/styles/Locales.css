@@ -1,0 +1,70 @@
+.locales_dom{
+    background-color: #FFE2D8;
+    padding-bottom: 60px;
+}
+
+#columna1.col-6{
+    background-color: white;
+    padding: 20px;
+    border-left: 2px solid black;
+}
+
+#columna2.col-6{
+    background-color: white;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+#columna3.col-6{
+    background-color: white;
+    padding: 20px;
+    border-left: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom: 2px solid black;
+}
+
+#columna4.col-6{
+    background-color: white;
+    padding: 20px;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid black;
+}
+
+#contenedos.container{
+    background-color: aqua;
+}
+
+.locales_tit{
+    margin-bottom: 0%;
+    background-color: white;
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.local_qbano{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.local_alkosto{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -28px;
+}
+
+.local_BBC{
+    width: 74%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}

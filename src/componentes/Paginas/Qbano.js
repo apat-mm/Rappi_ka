@@ -56,13 +56,11 @@ const Qbano = () => {
 
                             </div>
                         </div>
-
                         <div
-                            className='col-6 offset-md-1'
+                            className='col-6 offset-md-1' 
                             id='dos'>
                             <h2> <font color="#FF8351">Sándwiches</font> </h2>
-
-                            <div className='productos'>
+                            <div className='productos' style={{background:'white'}}> 
                                 <img
                                     src={QbanoEspecial}
                                     alt=""
@@ -79,7 +77,7 @@ const Qbano = () => {
                                 />
                             </div>
 
-                            <div className='productos'>
+                            <div className='productos' style={{background:'white'}}> 
                                 <img
                                     src={QbanoHawaiano}
                                     alt=""
@@ -96,7 +94,7 @@ const Qbano = () => {
                                 />
                             </div>
 
-                            <div className='productos'>
+                            <div className='productos' style={{background:'white'}}>
                                 <img
                                     src={QbanoRopa}
                                     alt=""
@@ -114,7 +112,6 @@ const Qbano = () => {
                             </div>
 
                         </div>
-
                     </div>
                 </div>
             </div>

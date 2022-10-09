@@ -1,0 +1,107 @@
+.Qbano{
+    background-color: #FFE2D8;
+    padding-top: 10px;
+}
+
+.restaurante{
+    background-color: white;
+    margin-bottom: 70px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.productos{
+    background-color: white;
+}
+
+.img_qbano{
+    border-color: white;
+    border-bottom: 0%;
+    border-radius: 0%;
+}
+
+#uno.card{
+    border-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#dos.col-6{
+    margin-top: 100px;
+}
+
+.Card{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parrafo{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.imagen_san{
+    float: right;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.back3{
+    float: right;
+    width: 25%;
+    margin-right: 12px;
+}
+
+.descripcion_qbano{
+	display: block;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: #1f1f1f;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.titulos_san{
+    color: #1f1f1f;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.texto_san{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.precios{
+    color: #1f1f1f;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.combos{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.combos1{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
