@@ -18,9 +18,9 @@ const Navbar = () => {
             </form>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li className="nav-item">
-                <Link className="nav-link" style={{ marginLeft: '60px', fontSize: '20px', fontWeight: 'bold', color: 'white' }} to='/registro'>Registro</Link>
-              </li>
+            <li className="nav-item">
+                <Link className="nav-link" style={{ marginLeft: '60px', fontSize: '20px', fontWeight: 'bold', color: 'white'}} to='/registro'>Mi cuenta</Link>
+            </li>
             </ul>
           </div>
           <Link to='/cart'>

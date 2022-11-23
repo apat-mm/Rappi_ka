@@ -10,6 +10,8 @@ import { faTwitter } from "@fortawesome/fontawesome-free-brands";
 import { faInstagram } from "@fortawesome/fontawesome-free-brands";
 import logo from '../assets/img/logo.png'
 import back2 from '../assets/img/back2.png'
+import Navbar from '../Navegacion/Navbar'
+import Footer from '../Navegacion/Footer';
 
 export const Local = () => {
 	const [inputLocalName, changeInputLocal] = useState('');
@@ -56,6 +58,7 @@ export const Local = () => {
 
 	return (
 		<>
+			<Navbar/>
 			<div className='local'>
 				<form action="" onSubmit={handleSubmit} className="formulario3">
 
@@ -219,6 +222,7 @@ export const Local = () => {
 					</div>
 				</form>
 			</div>
+			<Footer/>
 		</>
 	);
 }

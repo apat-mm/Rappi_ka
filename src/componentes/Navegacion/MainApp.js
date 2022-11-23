@@ -9,13 +9,14 @@ import Qbano from '../Paginas/Qbano';
 import Locales_dom from '../Paginas/Locales';
 import ShoppingCart from '../../componentes/ItemCart/shoppingCart'
 import Registro_productos from '../Paginas/Registro_productos';
+import App1 from '../Paginas/App1';
 
 const MainApp = () => {
     return (
         <>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/registro' element={<Auth />} />
+                <Route path='/registro' element={<App1 />} />
                 <Route path='/registro_local' element={<Local_register />} />
                 <Route path='/registro_repar' element={<Repartidor />} />
                 <Route path='/chat' element={<Chat />} />

@@ -9,12 +9,11 @@ buscador {
 	margin: 0;
 	box-sizing: border-box;
 }
-
 body {
 	background: #ffe2d8;
 	font-family: 'Inter', sans-serif;
 }
-
+container
 .home{
 	background-color: white;
 }
@@ -176,9 +175,18 @@ body {
 	border-radius: 8px;
 }
 
-.container{
-	display:grid;
+.App {
+	display:initial;
+	align-items: center;
 	justify-content: center;
+	min-height: 100vh;
+	flex-direction: column;
+  }
+
+.container{
+	display:initial;
+	justify-content: center;
+	padding-top: -40px;
 }
 
 .ba{
