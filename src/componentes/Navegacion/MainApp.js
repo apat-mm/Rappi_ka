@@ -10,6 +10,8 @@ import Locales_dom from '../Paginas/Locales';
 import ShoppingCart from '../../componentes/ItemCart/shoppingCart'
 import Registro_productos from '../Paginas/Registro_productos';
 import App1 from '../Paginas/App1';
+import App2 from '../Paginas/App2';
+import Crud_admin from '../Paginas/Crud_admin';
 
 const MainApp = () => {
     return (
@@ -24,6 +26,8 @@ const MainApp = () => {
                 <Route path='/locales' element={<Locales_dom />} />
                 <Route path='/cart' element={<ShoppingCart />} />
                 <Route path='/registro_producto' element={<Registro_productos />} />
+                <Route path='/admin' element={<App2 />} />
+                <Route path='/crud_admin' element={<Crud_admin />} />
             </Routes>
         </>
     );

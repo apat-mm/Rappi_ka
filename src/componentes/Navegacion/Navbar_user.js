@@ -1,9 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import rappi from '../assets/img/rappi.png'
+import { useUserContext } from '../context/userContext'
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const Navbar = () => {
-  return (
+const Navbar_user = () => {
+    const { user, logoutUser } = useUserContext();
+
+    return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark nav">
         <div className="container-fluid">
@@ -18,25 +22,24 @@ const Navbar = () => {
             </form>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <li className="nav-item">
-                <Link className="nav-link" style={{ marginLeft: '60px', fontSize: '20px', fontWeight: 'bold', color: 'white'}} to='/registro'>Mi cuenta</Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" style={{ marginLeft: '60px', fontSize: '20px', fontWeight: 'bold', color: 'white'}} to='/admin'>Admin</Link>
-            </li>
-            </ul>
 
-            <li className='nav-item'>
-              <Link to='/cart'>
-                <i style={{ fontSize: '30px', color: 'black'}} className="fa-solid fa-cart-shopping"></i>
-              </Link>
-            </li>
+            <NavDropdown title="Mi cuenta" id="basic-nav-dropdown" style={{ marginLeft: '60px', fontSize: '20px', fontWeight: 'bold', color: 'white'}}>
+                <NavDropdown.Item >Nombre : {user.displayName}</NavDropdown.Item>
+                <NavDropdown.Item >Email: {user.email}</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.2" onClick={logoutUser}>
+                    Cerrar sesion
+                </NavDropdown.Item>
+            </NavDropdown>
+            </ul>
           </div>
-          
+          <Link to='/cart'>
+            <i style={{ fontSize: '30px', paddingRight: '20px', color: 'black' }} className="fa-solid fa-cart-shopping"></i>
+          </Link>
         </div>
       </nav>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar_user

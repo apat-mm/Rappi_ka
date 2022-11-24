@@ -3,6 +3,58 @@
     margin-bottom: 50px;
 }
 
-body{
+#cliente.col-6{
+    text-align: center;
+}
+
+#inicio.col{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+#registrate.col{
+    margin-top: 60px;
+}
+
+.img_login{
+    float: right;
+    width: 38%;
+    padding: 0%;
+    height: 38%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 70px;
+
+}
+
+.img_registro{
+    float: left;
+    width: 26%;
+    padding: 0%;
+    height: 26%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+#google.btn-danger{
+    width: 30%;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.usuario{
     background-color: #FFE2D8;
+}
+
+.texto_usuario{
+    margin: 0;
+    width: 50%;
+    padding-bottom: 20px;
+    margin-left: 340px;
+}
+
+.form_registro{
+    margin-left: 220px;
 }

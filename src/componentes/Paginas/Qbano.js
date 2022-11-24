@@ -12,11 +12,13 @@ import back2 from '../assets/img/back2.png'
 import { Link } from 'react-router-dom';
 import Navbar from '../Navegacion/Navbar';
 import Footer from '../Navegacion/Footer';
+import AppC from './AppC';
 
 const Qbano = () => {
     return (
         <>
             <Navbar />
+            <AppC/>
             <div className='Qbano'>
                 <div className='container'>
                     <div className='row mt-5'>

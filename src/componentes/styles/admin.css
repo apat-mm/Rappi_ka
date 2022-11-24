@@ -1,0 +1,39 @@
+.admin{
+    background-color: #FFE2D8;
+    padding-bottom: 100px;
+}
+
+.admin_inicio{
+    margin-bottom: 42px;
+}
+
+#crud.container-fluid{
+    background-color: white;
+    width: 80%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px;
+}
+
+.admin_tit{
+    margin-top: 0px;
+    font-size: 40px;
+    padding-right: 700px;
+    margin-bottom: 20px;
+}
+
+.editar{
+    background-color: #0d6efd;
+}
+
+.eliminar{
+    background-color: #dc3545;
+}
+
+.crear{
+    background-color: #198754;
+    width: 250px;
+}
